@@ -5,10 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHE_TELEGRAM_APP</title>
-    <script type="module" crossorigin src="./assets/index-Dj0C1hpb.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D8b4DHJx.css">
+    <script type="module" crossorigin src="./assets/index-DPBLLABp.js"></script>
   </head>
   <body>
     <div id="root"></div>
+    <script src="https://telegram.org/js/telegram-web-app.js?58"></script>
+    <script>
+      const tg = window.Telegram.WebApp;
+      tg.expand();
+      console.log(tg.initDataUnsafe.user);
+    </script>
   </body>
 </html>
