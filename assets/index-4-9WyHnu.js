@@ -1,1 +1,0 @@
-import{j as o}from"./index-DPBLLABp.js";const n=function(){return o.jsxs("div",{children:[o.jsx("h1",{children:"Welcome to the Router!"}),o.jsx("p",{children:"This is the root route of your application."})]})};export{n as component};
